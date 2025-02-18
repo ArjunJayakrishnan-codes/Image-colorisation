@@ -22,20 +22,6 @@ colorization_release_v2.caffemodel: Pre-trained weights for the colorization mod
 pts_in_hull.npy: Quantization centers for the ab channels used in LAB color space.
 Place these files in the model folder in the project directory.
 
-Example Directory Structure:
-css
-Copy code
-Image Colorizer
-│
-├── main.py
-├── model/
-│   ├── colorization_deploy_v2.prototxt
-│   ├── colorization_release_v2.caffemodel
-│   └── pts_in_hull.npy
-How to Run
-Download or clone this repository to your local machine.
-Ensure that the necessary dependencies are installed using the command mentioned above.
-Place the model files (.prototxt, .caffemodel, .npy) in the correct folder structure.
 
 
 Code Breakdown
